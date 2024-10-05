@@ -14,6 +14,9 @@ function Map() {
     >
       {/* Header */}
       <h1 style={{ marginBottom: "20px" }}>Map View</h1>
+      <div>
+
+      </div>
 
       {/* Map Container */}
       <div
@@ -25,8 +28,8 @@ function Map() {
         }}
       >
         <MapContainer
-          center={[38, -0.09]}
-          zoom={5}
+          center={[40.1381, -99.8264]}
+          zoom={4}
           style={{ width: "100%", height: "100%" }}
         >
           <TileLayer
