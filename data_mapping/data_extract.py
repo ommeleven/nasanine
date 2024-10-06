@@ -20,4 +20,4 @@ for _, row in data.iterrows():
     ).add_to(m)
 
 # Save the map to an HTML file
-m.save("map.html")
+m.save("data_mapping/map.html")
